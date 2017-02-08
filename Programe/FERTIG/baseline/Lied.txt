@@ -1,0 +1,31 @@
+100, 200 <- Gesamtbeats, Beats pro Minute (Viertelnoten)
+
+#cc+dd+eff+gg+abhpO+c#
+
+zum Testen:
+#O1cdefgahO+cdefgahO+cdefgahO+cdefgahO+cdefgahO+cdefgahO+cdefgahO+cdefgahO+c#
+#O+O+S-cdefO0S0cdeccc#
+
+
+Erklärung:
+Die Datei mit der tonsequenz muss unter c:\windows\desktop\lied.txt zu finden sein
+Am Anfang der Aatei stehen, durch ein Komma getrennt, Gesamtbeats und Beats pro Minute
+tonsequenz steht zwischen den ersten zwei #   was davor oder danach kommt ist egal.
+töne kleingeschrieben! es gibt:cdefgebh.
+p ist pause
++ nach ton erhöht ihn (zB. c+ = cis)
+- nach ton erniedrigt ihn (zB. c- = ces)
+Leerzeichen, Komma, Punkt und Enter werden nicht beachtet.
+
+O- erniedrigt aktuelle Oktave
+O+ erhöht aktuelle Oktave
+Ox setzt aktuelle Oktave auf wert x (1-9) bei O7 ist a=440 Hz
+O0 setzt aktuelle Oktave auf Standartwert = 5
+
+S- halbiert aktuellen Speed (verdoppelt notenlänge)
+S+ verdoppelt aktuellen Speed (halbiert notenlänge)
+Sx setzt aktuellen Speed auf wert x (1-9) 1=ganze noten, 2=halbe noten...
+S0 setzt aktuellen Speed auf Standartwert = 3
+
+
+
